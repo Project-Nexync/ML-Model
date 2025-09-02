@@ -1,2 +1,5 @@
 #Ignore the virtual environment
 nexync_venv_311
+
+#Ignore the data folder
+data/
