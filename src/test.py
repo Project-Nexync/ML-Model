@@ -8,12 +8,12 @@ from sentence_transformers import SentenceTransformer
 TOP_N = 3  # Number of members to suggest
 
 # --- Step 1: Load trained model ---
-model = load_model('../model_artifacts/task_member_model.h5')
+model = load_model('model_artifacts/task_member_model.h5')
 print("✅ Loaded trained model")
 
 # --- Step 2: Load member features and metadata ---
-member_features = np.load('../data/features/member_features.npy')
-member_meta = pd.read_csv('../data/features/member_metadata.csv')
+member_features = np.load('data/features/member_features.npy')
+member_meta = pd.read_csv('data/features/member_metadata.csv')
 
 # --- Step 3: Load task feature model (SentenceTransformer) ---
 sentence_model = SentenceTransformer('all-MiniLM-L6-v2')

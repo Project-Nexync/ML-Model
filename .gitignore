@@ -1,5 +1,60 @@
-#Ignore the virtual environment
-nexync_venv_311
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
 
-#Ignore the data folder
+# Virtual environments
+venv/
+env/
+.venv/
+nexync_venv_311/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data and artifacts (keep sample data out of version control)
 data/
+datasets/
+data/raw/
+data/processed/
+model_artifacts/
+models/
+checkpoints/
+outputs/
+
+# Binary / large files
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.pkl
+*.npy
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.pem
+*.key
+credentials.json
+aws_credentials
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Build/dist
+dist/
+build/
+
+# Allow committing small sample data explicitly placed in data/sample/
+!data/sample/
