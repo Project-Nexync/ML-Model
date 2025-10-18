@@ -18,7 +18,7 @@ import json
 import sys
 import numpy as np
 from scipy.optimize import linear_sum_assignment
-from .featurize import Featurizer
+import importlib
 
 
 def expand_persons_by_capacity(persons):
@@ -32,9 +32,14 @@ def expand_persons_by_capacity(persons):
     return slots, slot_owner
 
 
-def assign(tasks, persons, alpha=0.7, min_score=0.0):
-    # create featurizer
-    f = Featurizer()
+def assign(tasks, persons, alpha=0.7, min_score=0.0, featurizer=None):
+    # create or reuse provided featurizer; import lazily to avoid heavy imports at module load
+    if featurizer is not None:
+        f = featurizer
+    else:
+        featurize_mod = importlib.import_module('src.featurize')
+        Featurizer = getattr(featurize_mod, 'Featurizer')
+        f = Featurizer()
 
     # If tasks don't have required_skills, try to infer from title + available persons
     for t in tasks:

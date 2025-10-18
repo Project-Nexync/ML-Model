@@ -6,3 +6,5 @@ sentence-transformers
 # scikit-learn
 # pandas
 pytest
+fastapi
+uvicorn[standard]
