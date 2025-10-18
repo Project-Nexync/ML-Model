@@ -1,0 +1,8 @@
+numpy
+scipy
+sentence-transformers
+# Optional (for training/inference with Keras):
+# tensorflow
+# scikit-learn
+# pandas
+pytest

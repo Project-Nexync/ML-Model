@@ -1,0 +1,12 @@
+{
+  "tasks": [
+    {"id": "t1", "title": "Build login UI"},
+    {"id": "t2", "title": "Create email worker"}
+  ],
+  "persons": [
+    {"id": "p1", "name": "Alice", "skills": ["react", "tailwind", "frontend"], "capacity": 2},
+    {"id": "p2", "name": "Bob", "skills": ["node", "aws", "nodemailer"], "capacity": 1}
+  ],
+  "alpha": 0.7,
+  "min_score": 0.0
+}

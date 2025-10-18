@@ -1,21 +1,3 @@
-member_id,name,skills,tasks_done,tasks_assigned
-1,Member1,"UI, gsap, aria",4,4
-2,Member2,"UI, Logistic Regression, ansible",25,4
-3,Member3,"Stable Baselines, testing library, RiskMatrix, BM25, sass",1,3
-4,Member4,"PostgreSQL, foundation, ci/cd",29,1
-5,Member5,"BorutaPy, sql, readthedocs, Elasticsearch, c",4,0
-6,Member6,"TextBlob, mocha, Praat",7,3
-7,Member7,"Librosa, OpenCV, puppet, DenseNet",5,4
-8,Member8,"SV2TTS, jenkins, php, Linear Regression, Prometheus",19,4
-9,Member9,"Dlib, TensorFlow Lite, tensorflow",20,2
-10,Member10,"Sentence-BERT, DeepSpeech, DeepRecSys, Dialogflow",10,2
-11,Member11,"NLTK, BM25, R, terraform, Kubernetes",5,0
-12,Member12,"ADTK, OpenKE, jest",17,1
-13,Member13,"YOLO, server configuration, Linear Regression",9,1
-14,Member14,"jwt, apache spark, MySQL",16,3
-15,Member15,"Matrix Factorization, LDA, Figma, CRNN, Apache Flink, prometheus",3,3
-16,Member16,"api, C++, django, MLflow, EfficientNet, Proximal Policy Optimization",10,4
-17,Member17,"bootstrap, Ansible, mongoDB, api",26,5
-18,Member18,"collaboration tools, sqlite, technical writing, R, Rasa, GitLab",21,1
-19,Member19,"flask, mysql, BERT, LightGBM, api documentation",14,5
-20,Member20,"kanban, ember.js, NLTK, Labelbox",2,3
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbbc1171f483678c7c1d058ca41297ce91e4e0db2ca5185063441f4d29a39d8e
+size 1214
